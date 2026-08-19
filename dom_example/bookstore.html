@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+
+    <style>
+        .book {
+            border: 2px solid green;
+            width: 200px;
+            height: 300px;
+            margin: 20px;
+            text-align: center;
+            background-color: rgb(29, 145, 127);
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+        #bookStore {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .book img {
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .book button {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="text-align: center;">
+        Our BookStore
+    </h1>
+
+    <div id="bookStore"></div>
+
+    <script src="./bookStore.js"></script>
+
+</body>
+</html>
